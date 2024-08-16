@@ -7,6 +7,11 @@ body {
        
 }
 
+@font-face {
+    font-family: myfonts;
+    src: url(fonts);
+}
+
 * {
     list-style-type: none;
 }
@@ -227,37 +232,8 @@ footer {
     opacity: 0.4;
 }
 
-
-
 @media (max-width:767px) {
-    .main div#aboutsmfest .abtsmfest-img { 
-    height: 250px;
-    margin-left: 0px; 
+main .row div#volunteer {
+    margin-bottom: 250px;
 }
 }
-
-@media (max-width:767px) {
-#aboutsmfest-img .aboutsmfest-positioning {
-    position: absolute; 
-    left: 10px; 
-    z-index: 3;
-}
-}
-
-@media (max-width:767px) {
-    #becomeasponsor-img {
-        height: 250px;
-        margin-top: 200px;
-        margin-bottom: 200px;
-    }
-}
-
-@media (max-width:767px) {
-    #becomeasponsor-img .aboutsmfest-positioning div#aboutsmfest-borderpositioning {
-        width: 500px; 
-        height: 580px; 
-        position: absolute; 
-        left: ; 
-        top: -50px;
-    }
-    }
