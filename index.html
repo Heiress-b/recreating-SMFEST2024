@@ -7,13 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet">
 </head>
 <body style="background-color:#08003c">
-   <header class="w-100">
+   <header>
     <div class="container-fluid">
         <div class="row d-flex align-items-center">
             <div class="col-4 col-lg-3" id="logo">
@@ -59,25 +57,25 @@
         <nav>
             <div class="container">
                 <div class="row  pt-5" style="gap: 0px;">
-                    <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                    <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                         <div class="col-12  border text-center p-5" id="attendees-nav-1" style="color: #EE2F5B;">
                             <h1 style="font-size: 50px;">5,332</h1>
                             <p style="color: white; font-size: 20px;">Attendees</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                    <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                         <div class="col-12 border text-center p-5" style="color: #EE2F5B;">
                             <h1 style="font-size: 50px;">150</h1>
                             <p style="color: white; font-size: 20px;">Small Businesses</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                    <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                         <div class="col-12 border text-center p-5" style="color: #EE2F5B;">
                             <h1 style="font-size: 50px;">2</h1>
                             <p style="color: white; font-size: 20px;">Cities</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                    <div class="col-12 col-lg-3 mb-3 mb-lg-0">
                         <div class="col-12 border text-center p-5" style="color: #EE2F5B;">
                             <h1 style="font-size: 50px;">500 +</h1>
                             <p style="color: white; font-size: 20px;">Volunteers</p>
@@ -87,9 +85,9 @@
             </div>
         </nav>
         <main style="padding-top: 230px;">
-            <div class="container">
-                <div class="row" style="margin-bottom: 500px;">
-                    <div class="col-12 col-lg-6 order- order-lg-1" style="color: white; @media (max-width:767px) {padding-bottom: 500px;}">
+            <div class="container" style="width: 90%; margin: 0 auto;">
+                <div class="row" style="margin-bottom: 400px; justify-content: space-between;">
+                    <div class="col-12 col-lg-6 order-2 order-lg-1" style="color: white;" id="about-smfest">
                         <h6 style="color: #EE2F5B;">ABOUT SMFEST</h6>
                         <h5>SMFest?</h5>
                         <p>It is a platform that teaches its audience how to leverage the power of technology, social media, and innovation to advance their businesses, brands, and causes, by providing ideas, exposure, and insights that help people and businesses understand how to explore all the advantages of digitalization.</p>
@@ -98,26 +96,28 @@
                             <a href="" class="readmore"></a>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 justify-content-end order-1 order-lg-2" style="position: relative;" id="aboutsmfest-img">
-                        <div style="position: absolute; left: 70px; z-index: 3;" class="aboutsmfest-positioning">
-                            <img src="images/about-smfest.webp" alt="" style="height: 500px;">
+                    <div class="col-12 col-lg-6 d-flex order-1 order-lg-2 rounded-4" style="border: 4px solid #EE2F5B; margin: -50px; width:500px; height: 580px;">
+                        <div>
+                            <img src="images/about-smfest.webp" alt="" style="height: 600px; margin-left: -80px;">
                         </div>
-                        <div id="aboutsmfest-borderpositioning" style="border: 4px solid #EE2F5B; width:450px; height: 580px; position: absolute; left: 120px; top: -50px;" class="rounded-4"></div>
-                        <div style="color: white; border: 1px solid white; background-color: black; width: 200px; position: absolute; bottom: -100px; right: 0px; z-index: 5;" class="text-center">
-                            <h6 style="font-size: 50px;">4 <sup style="color: #EE2F5B;">TH</sup></h6>
-                            <p>Years Of <br> Excellence</p>
+                        <div style="position: relative;">
+                            <div style="color: white; border: 1px solid white; background-color: black; width: 200px; position: absolute; left: -120px; bottom: 100px;" class="text-center">
+                                <h6 style="font-size: 50px;">4 <sup style="color: #EE2F5B;">TH</sup></h6>
+                                <p>Years Of <br> Excellence</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row" style="margin-bottom: 500px;">
-                    <div class="col-12 col-lg-6 text-lg-start" style="position: relative;">
-                        <div style="border: 3px solid #EE2F5B; width:450px; height: 580px; position: absolute; right: 120px; top: -40px;" class="rounded-4"></div>
-                        <div style="position: absolute; left: -30px; z-index: 3;" id="becomeasponsor-img" class="animate_animated animate_backInLeft">
-                          <img src="images/become-a-sponsor.webp" alt="" style="height: 600px;">
+                <div class="row" style="margin-bottom: 400px; justify-content: space-between;">
+                    <div class="col-12 col-lg-6 text-lg-start rounded-4" style="border: 4px solid #EE2F5B; width:450px; height: 580px;">
+                        <div>
+                          <img src="images/become-a-sponsor.webp" alt="" style="height: 650px; margin-left: 50px;">
                         </div>
-                        <div style="color: white; border: 1px solid white; background-color: #EE2F5B; width: 200px; position: absolute; top: -80px; left: -50px; z-index: 5;" class="text-center py-2">
-                            <h6 style="font-size: 50px;">50 +</h6>
-                            <p>Global Sponsors</p>
+                        <div style="position: relative;">
+                            <div style="color: white; border: 1px solid white; background-color: #EE2F5B; width: 200px; position: absolute; bottom: 600px;" class="text-center py-2">
+                                <h6 style="font-size: 50px;">50 +</h6>
+                                <p>Global Sponsors</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 justify-content-end" style="color: white;">
@@ -136,7 +136,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="d-flex gap-3">
-                                    <i class="bi bi-house-door" style="font-size: 50px;"></i>
+                                    <i class="bi bi-house" style="font-size: 50px;"></i>
                                     <div style="font-size: 15px;">
                                         <h6>Exhibition Stand</h6>
                                         <p>Have a decorated booth for your brand where activations can permanently happen</p>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="d-flex gap-3">
-                                    <i class="bi bi-person-x" style="font-size: 50px;"></i>
+                                    <i class="bi bi-person-plus" style="font-size: 50px;"></i>
                                     <div>
                                         <h6 style="font-size: 15px;">Panel Session Spot</h6>
                                         <p style="font-size: 12px;">Share insight into your product and service in a conversation with other influencers</p>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="d-flex gap-3">
-                                    <i class="bi bi-people"></i>
+                                    <i class="bi bi-person-fill-check" style="font-size: 50px;"></i>
                                     <div>
                                         <h6>Volunteers Activation</h6>
                                     <p>Engage over 200 volunteers to perform your tasks so that your goals can be met.</p>
@@ -167,8 +167,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-lg-6" style="color: white; margin-bottom: 450px;">
+                <div class="row" style="margin-bottom: 400px; justify-content: space-between;">
+                    <div class="col-12 col-lg-6" style="color: white;">
                         <p style="color: #EE2F5B; font-size: 20px;">Join SMFEST Volunteer</p>
                         <h2 style="font-size: 50px;">Volunteer for SMFest</h2>
                         <p style="font-size: 15px;">Simply fill out the volunteer application form on our website. We welcome individuals with a passion for technology, a positive attitude, and a willingness to learn and contribute. No prior experience is required—just bring your enthusiasm and dedication to the table!</p>
@@ -177,14 +177,15 @@
                             <a href="" class="volunteer-button"></a>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6" style="position: relative;">
-                        <div style="position: absolute; left: 70px; z-index: 3;" id="volunteer-img">
-                            <img src="images/volunteer-for-smfest.webp" alt="" style="height: 600px;">
+                    <div class="col-12 col-lg-6 rounded-4" style="border: 4px solid #EE2F5B; width:500px; height: 580px;">
+                        <div>
+                            <img src="images/volunteer-for-smfest.webp" alt="" style="height: 500px; margin-right: -80px;">
                         </div>
-                        <div style="border: 5px solid #EE2F5B; width:550px; height: 580px; position: absolute; left: 100px; top: -30px;" class="rounded-4"></div>
-                        <div style="color: white; border: 1px solid white; background-color: black; width: 200px; position: absolute; bottom: 300px; right: -100px; z-index: 5;" class="text-center">
-                            <h6 style="font-size: 50px;">200</h6>
-                            <p>Volunteers</p>
+                        <div style="position: relative;">
+                            <div style="color: white; border: 1px solid white; background-color: black; width: 200px; position: absolute; left: 320px; bottom: 100px;" class="text-center">
+                                <h6 style="font-size: 50px;">200</h6>
+                                <p>Volunteers</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -289,7 +290,7 @@
                             <i class="bi bi-inbox"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4" style="color: white;">
+                    <div class="col-12 col-lg-4" style="color: white; opacity: 0.7;">
                         <h5>Other Pages</h5>
                         <ul>
                             <li>About Us</li>
@@ -302,13 +303,13 @@
                             <li>About Us</li>
                         </ul>
                     </div>
-                    <div class="col-12 col-lg-4" style="color: white;">
+                    <div class="col-12 col-lg-4" style="color: white; opacity: 0.7;">
                         <h5>Newsletter</h5>
                         <p>Don't miss a thing! Sign up to receive weekly news</p>
                         <input type="text" placeholder="Enter Email Adrress" class="rounded-pill" style="padding: 10px 60px; background-color: inherit; border: 1px solid white; color: white;">
                         <input type="text" placeholder="First Name" class="rounded-pill" style="padding: 10px 60px; background-color: inherit; border: 1px solid white; color: white;">
                         <input type="text" placeholder="Last Name" class="rounded-pill" style="padding: 10px 60px; background-color: inherit; border: 1px solid white; color: white;">
-                        <a href=""><button class="rounded-pill" style="padding: 10px 120px; background: linear-gradient(#F7483e, #E22B6C);">SUBSCRIBE</button></a>
+                        <a href=""><button class="rounded-pill" style="padding: 10px 120px; opacity: none; background: linear-gradient(#F7483e, #E22B6C);">SUBSCRIBE</button></a>
                     </div>
                 </div>
             </div>
@@ -318,7 +319,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                       <p style="color: white;">© 2024 Silicon Africa. All rights reserved.</p>
+                       <p style="color: white; opacity: 0.4;">© 2024 Silicon Africa. All rights reserved.</p>
                     </div>
                 </div>
             </div>
