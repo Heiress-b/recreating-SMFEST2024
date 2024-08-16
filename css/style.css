@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Clash Display', sans-serif;
        
 }
 
@@ -227,17 +228,15 @@ footer {
 
 @media (max-width:767px) {
     .main div#aboutsmfest {
-        margin-top: 200px;
+        height: 300px;
+        width: 250px;
     }
 }
 
 @media (max-width:767px) {
-#aboutsmfest-img .aboutsmfest-positioning div#aboutsmfest-borderpositioning {
+    .main div#aboutsmfest .abtsmfest-img {
     width: 500px; 
     height: 580px; 
-    position: absolute; 
-    left: ; 
-    top: -50px;
 }
 }
 
