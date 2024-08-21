@@ -3,7 +3,6 @@ body {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
        
 }
 
@@ -35,6 +34,15 @@ header {
     background-size: cover;
     animation: 5s ease-in-out;
     animation-name: change;
+    font-family: myfonts;
+}
+
+nav {
+    font-family: myfonts;
+}
+
+main {
+    font-family: myfonts;
 }
 
 @keyframes change {
@@ -80,6 +88,7 @@ header {
 
 #header-button a.sponsor::after,.sponsor::before {
     content: "SPONSOR";
+    font-size: 12px;
     position: absolute;
     color: white;
     align-items: center;
@@ -88,7 +97,7 @@ header {
     overflow: hidden;
     transition: all 400ms;
     left: 40px;
-    line-height: 2.5;
+    line-height: 4;
 }
 
 #header-button a.sponsor:hover::after {
@@ -121,12 +130,13 @@ section .row {
 .readmore-parent .readmore::after,.readmore-parent .readmore::before {
     position: absolute;
     content: "READ MORE";
+    font-size: 12px;
     justify-content: center;
     align-items: center;
     width: 100%;
     left: 30px;
     transition: all 400ms;
-    line-height: 2.5;
+    line-height: 4;
     color: white;
 }
 
