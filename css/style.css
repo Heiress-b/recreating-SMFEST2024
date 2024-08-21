@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: myfonts;
-    src: url(fonts);
+    src: url(/fonts/Agrandir-GrandHeavy.otf);
 }
 
 * {
@@ -229,7 +229,7 @@ section .row {
 
 footer {
     background-image: url(../images/1.webp);
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 @media (max-width:767px) {
